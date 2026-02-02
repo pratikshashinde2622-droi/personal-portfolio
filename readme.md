@@ -1,55 +1,69 @@
 # Personal Portfolio
 
-A minimal static personal portfolio website built with plain HTML, CSS, and images.
+A clean and simple personal portfolio website showcasing my skills, projects, and experience.
 
-## Project Overview
+## About
 
-This repository contains a small personal portfolio site with a homepage and a set of static pages for About, Projects, Skills, and Contact.
+This is a static portfolio website built with HTML to highlight my work as a computer engineering student and web development enthusiast. It features information about my background, skills, and completed projects.
 
 ## Features
 
-- Simple, accessible static HTML pages
-- Separate pages for About, Projects, Skills, and Contact
-- Images stored in the `img/` folder
+- Clean and simple design
+- Fully responsive static HTML pages
+- Multiple sections: Home, About, Skills, Projects, and Contact
+- Easy to customize and deploy
 
 ## Project Structure
 
-- index.html
-- img/ (images used by the site)
-- pages/
-  - about.html
-  - contact.html
-  - project.html
-  - skills.html
-
-## Preview Locally
-
-1. Open `index.html` directly in your browser (double-click the file).
-2. Or run a simple local server from the project root:
-
-```bash
-python -m http.server 8000
-# then open http://localhost:8000
+```
+personal-portfolio/
+├── index.html           # Home page
+├── pages/
+│   ├── about.html       # About me section
+│   ├── skills.html      # Skills & expertise
+│   ├── project.html     # Projects showcase
+│   └── contact.html     # Contact information
+├── img/                 # Image assets
+└── readme.md            # This file
 ```
 
-Or use the VS Code Live Server extension to preview with automatic reloads.
+## Getting Started
 
-## Deploy (GitHub Pages)
+### View Locally
 
-1. Create a GitHub repository and push this project.
-2. In the repository Settings → Pages, set the source to the `main` branch and root (`/`).
-3. Save and wait a few minutes for the site to become available at `https://<your-username>.github.io/<repo>`.
+1. **Open directly**: Double-click `index.html` to open in your default browser
+2. **Using Python**: Run a local server from the project directory:
+   ```bash
+   python -m http.server 8000
+   ```
+   Then open `http://localhost:8000` in your browser
 
-## Customize
+3. **Using VS Code**: Install the Live Server extension and right-click `index.html` → "Open with Live Server"
 
-- Edit HTML files in the project root and `pages/` to change content.
-- Replace images in the `img/` folder.
-- Add or modify CSS (if present) to change styling.
+## Deployment
 
-## Contact
+### Deploy on GitHub Pages
 
-For contact details, see the Contact page: `pages/contact.html`.
+1. Create a new GitHub repository
+2. Push this project to your repository
+3. Go to repository **Settings** → **Pages**
+4. Set source to `main` branch and `/` (root)
+5. Save and wait a few minutes for deployment
+6. Your portfolio will be live at `https://<your-username>.github.io/<repo-name>`
 
----
+## Customization
 
+- Edit HTML files to update content
+- Add/replace images in the `img/` folder
+- Update navigation links in the pages
+- Modify styling by adding CSS
+
+## Author
+
+**Pratiksha Appasaheb Shinde**  
+Computer Engineering Student  
+Savitribai Phule Pune University
+
+Email: example@gmail.com  
+© 2026 | All Rights Reserved
     
